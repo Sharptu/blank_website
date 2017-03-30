@@ -1,0 +1,64 @@
+h1{
+	color: green;
+	font-size: 170px;
+	text-transform: uppercase;
+	text-align: center;
+}
+h2{
+  color: green;
+  font-size: 100px;
+  text-align: left;
+}
+p{
+    color: black;
+  font-size: 90px;
+  text-align: left;
+ }
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+.img {
+    width: 100%;
+    height: 100%; 
+ }
+ h3{
+  color: green;
+  font-size: 100px;
+  text-align: left;
+}
+.web_animation3 
+{ 
+  width: 3000px; height: 3000px;
+}
+.web_animation3
+{ 
+  background-image: url('../web_animation3.gif');
+}
+h4{
+  color: green;
+  font-size: 100px;
+  text-align: left;
+}
